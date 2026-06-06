@@ -2,3 +2,6 @@
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
+
+# Ignore the raw Postgres database storage volumes
+ny_taxi_postgres_data/
